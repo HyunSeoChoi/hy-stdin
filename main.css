@@ -1,0 +1,46 @@
+#search_icon{
+    filter : opacity(0.5) drop-shadow(0 0 0 #145877);
+    width : 25px;
+}
+
+  body {
+    /* margin 0 페이지 맞춤 */   
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 90vh;
+    /* vh는 viewpoint height -> 90으로 설정하여 중간보다 조금 위에 검색창 위치시킴 */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 위의 세 줄을 통해 검색창을 가운데에 위치시킴 */
+
+    background-image:url(asset/임시배경.png);
+    background-repeat : no-repeat;
+    background-attachment: fixed;
+    background-size:80%
+
+  }
+
+   .search_space {
+    height: auto;
+    width: auto;
+  } 
+
+  .search_text {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    margin: 5px;
+  }
+
+   .search_button {
+    width: 50px;
+    height: 50px;
+  }
+
+  .search_text:focus {
+    width: 500px;
+    height: 50px;
+  }
