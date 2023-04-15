@@ -67,6 +67,8 @@
 
   /* 입력창이 만약 눌리면 그거 확대 */
 
+  /* transition 으로 애니메이션 넣는다. 부드럽게 움직이려고 cubic-bezier 쓰는듯 */
+
   .search_button:focus{
     background-color: transparent;
   }
