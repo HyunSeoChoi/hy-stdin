@@ -8,7 +8,7 @@
     <title>StudyRoom</title>
     <style>
         body{
-            width: auto;
+            width: 100%;
             height: auto;
             margin:0px;
             display:flex;
@@ -41,6 +41,7 @@
             border-left:1px solid white;
             border-right:1px solid white;
             padding : 15px;
+            width:80%;
             background-color:white;
         }
         #name{
@@ -49,6 +50,21 @@
             width:500;
             justify-content: center;
         }
+        #t{
+            width: auto;
+            padding-left:20px;
+            padding-right:20px;
+            padding-top:5px;
+            padding-bottom:5px;
+            border-radius: 30px;
+        }
+        #tags{
+            overflow: auto; white-space: nowrap;
+        }
+        #tags::-webkit-scrollbar {
+        display: none;
+      }
+
     </style>
 </head>
 <body>
@@ -60,12 +76,24 @@
                 <li><a href="#">Description</a></li>
                 <li><a href="#">Time</a></li>
                 <li><a href="#">Where</a></li>
+                <li><a href="#">significant</a></li>
                 <li></li>
             </ul>
         </nav>
+        
         <br>
-        <div id="picture"> <img src="images/holmz1.jpg" alt="사진 들어가는 공간 "></div>
+        <div id="picture"> <img src="images/holmz1.jpg" style="width:100%" alt="사진 들어가는 공간 "></div>
+        <br>    
+        <div id="tags">
+            <span id="t" style="background-color: #e2e2e2;  ">afsd</span>
+            <span id="t" style="background-color: #e2e2e2; ">afsd</span>
+            <span id="t" style="background-color: #e2e2e2;  ">afsd</span>
+            <span id="t" style="background-color: #e2e2e2;  ">afsd</span>
+            <span id="t" style="background-color: #e2e2e2;  ">afsd</span>
+    
+        </div>
         <br>
+
         <div id="description">
             <hr>
             <h3>Description</h3>
@@ -77,6 +105,7 @@
             - 토 : 09:00 ~ 15:00
             <h3>Where</h3>
             한양대역 2번출구 앞 한양플라자 2층
+            <h3>significant</h3>
         </div>
         <div id="tag">
 
