@@ -1,0 +1,18 @@
+#title > h1 {
+  font-size: 30pt;
+}
+
+/* #search_text:focus,
+#search_button:focus ~ #search_text {
+  padding: 0px 15px;
+  height: 50px;
+  width: 70vw;
+  visibility: visible;
+  border-radius: 30px;
+  background-color: #e2e2e2;
+  border-style: none;
+  transition: all 500ms cubic-bezier(0, 0.11, 0.35, 2);
+} */
+
+/* 버튼이 눌리면 입력창 확대 */
+/* transition 으로 애니메이션 넣는다. 부드럽게 움직이려고 cubic-bezier 쓰는듯 */

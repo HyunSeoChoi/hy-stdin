@@ -1,0 +1,15 @@
+body {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  border-left: solid #e2e2e2 2px;
+  border-right: solid #e2e2e2 2px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+#lectureRoom-image {
+  width: 50vw;
+}
+#location img {
+  width: 50vw;
+}

@@ -1,5 +1,6 @@
 body {
   background-image: url(../images/hanyang.png);
+  background-color: #ffffff;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -12,7 +13,6 @@ body {
 }
 
 #title > h1 {
-  font-size: 30pt;
   color: rgb(108, 171, 232);
 }
 
@@ -24,17 +24,17 @@ body {
   height: fit-content;
   position: relative;
   /*
-          포지션 relative 주면, 자식 태그중에 absolute 있을 때
-          버튼이랑 입력 창같은거 겹치게 할 수 있음
-        */
+      포지션 relative 주면, 자식 태그중에 absolute 있을 때
+      버튼이랑 입력 창같은거 겹치게 할 수 있음
+    */
 }
 
 #search_text {
   top: 30vh;
   height: 50px;
   width: 50px;
-  visibility: hidden;
   outline: none;
+  visibility: hidden;
   border-radius: 30px;
   border-style: none;
   transition: all 500ms ease-in-out;
@@ -52,21 +52,9 @@ body {
   background-color: rgb(108, 171, 232);
 }
 
-#search_text:focus,
-#search_button:focus ~ #search_text {
-  padding: 0px 15px;
-  height: 50px;
-  width: 70vw;
-  visibility: visible;
-  border-radius: 30px;
-  background-color: #e2e2e2;
-  border-style: none;
-  transition: all 500ms cubic-bezier(0, 0.11, 0.35, 2);
-}
-
 /* 버튼이 눌리면 입력창 확대 */
 /* transition 으로 애니메이션 넣는다. 부드럽게 움직이려고 cubic-bezier 쓰는듯 */
-#search_button:focus {
+/* #search_button:focus {
   background-color: transparent !important;
-}
+} */
 /* 버튼 눌리면 배경 투명해지는거 */
