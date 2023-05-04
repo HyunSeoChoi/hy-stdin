@@ -27,15 +27,6 @@
       media="only screen and (min-width:670px)"
       href="styles/basicScreen.css"
     />
-    <script>
-      function Click() {
-        var search_text = document.getElementById("search_text");
-        location.href="result.html?" + search_text.value;
-        if (search_text_value == "") {
-          search_text.placeholder = "공간을 입력해주세요.";
-        }
-      }
-    </script>
     <title>HY-std::in</title>
   </head>
   <body>
@@ -44,7 +35,7 @@
     </div>
     <div class="search_space" id="search_space">
       <button
-        onclick="onSearchTextClicked()"
+        onclick="onSearchButtonClicked()"
         class="search_button"
         id="search_button"
       >
