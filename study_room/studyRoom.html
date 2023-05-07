@@ -1,123 +1,86 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/basic.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/basic.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <!-- mid:670 small:560-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="only screen and (max-width:560px)"
+      href="styles/smallScreen.css"
+    />
+    <link
+      rel="stylesheet"
+      media="only screen and (min-width:560px) and (max-width:670px)"
+      href="styles/midScreen.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="only screen and (min-width:670px)"
+      href="styles/basicScreen.css"
+    />
     <title>StudyRoom</title>
-    <style>
-        body{
-            width: 100%;
-            height: auto;
-            margin:0px;
-            display:flex;
-            justify-content: center;
-            background-image:url('images/books-g01b661ee2_1920.jpg');
-        }
-        ul#x{
-            list-style:none;
-            text-align:center;
-
-        }
-        ul#x li{
-            display:inline;
-            margin:10px;
-            
-        }
-        ul#x li a{
-            text-decoration: none;
-            color:black;
-            letter-spacing:10px; 
- 
-        }
-        /* body{
-            color:white;
-            background-image:url('images/books-g01b661ee2_1920.jpg');
-            background-repeat:no-repeat;
-            background-size:100%;
-        } */
-        #outer{
-            border-left:1px solid white;
-            border-right:1px solid white;
-            padding : 15px;
-            width:80%;
-            background-color:white;
-        }
-        #name{
-            display:flex;
-            background-color:white;
-            width:500;
-            justify-content: center;
-        }
-        #t{
-            width: auto;
-            padding-left:20px;
-            padding-right:20px;
-            padding-top:5px;
-            padding-bottom:5px;
-            border-radius: 30px;
-        }
-        #tags{
-            overflow: auto; white-space: nowrap;
-        }
-        #tags::-webkit-scrollbar {
-        display: none;
-      }
-
-    </style>
-</head>
-<body>
+  </head>
+  <body>
     <div id="outer">
-        <div id="name"><h1>HOLMZ</h1></div>
-        <nav >
-            <ul id="x">
-                <li><a href="#">Back</a></li>
-                <li><a href="#">Description</a></li>
-                <li><a href="#">Time</a></li>
-                <li><a href="#">Where</a></li>
-                <li><a href="#">significant</a></li>
-                <li></li>
-            </ul>
-        </nav>
-        
-        <br>
-        <div id="picture"> <img src="images/holmz1.jpg" style="width:100%" alt="사진 들어가는 공간 "></div>
-        <br>    
-        <div id="tags">
-            <span id="t" style="background-color: #e2e2e2;  ">afsd</span>
-            <span id="t" style="background-color: #e2e2e2; ">afsd</span>
-            <span id="t" style="background-color: #e2e2e2;  ">afsd</span>
-            <span id="t" style="background-color: #e2e2e2;  ">afsd</span>
-            <span id="t" style="background-color: #e2e2e2;  ">afsd</span>
-    
-        </div>
-        <br>
+      <div id="name"><h1>HOLMZ</h1></div>
+      <nav>
+        <ul id="x">
+          <li><a href="../index.html">Back</a></li>
+          <li><a href="#description">Description</a></li>
+          <li><a href="#time">Time</a></li>
+          <li><a href="#where">Where</a></li>
+          <li><a href="#significant">significant</a></li>
+          <li></li>
+        </ul>
+      </nav>
 
-        <div id="description">
-            <hr>
-            <h3>Description</h3>
-            Homlz에는 캐럴 1~21의 다양한 스터디 공간이 마련되어 있습니다. 
-            
-            <h3>Time</h3>
-            - 월~금 : 09:00 ~ 22:00
-            <br>
-            - 토 : 09:00 ~ 15:00
-            <h3>Where</h3>
-            한양대역 2번출구 앞 한양플라자 2층
-            <h3>significant</h3>
-        </div>
-        <div id="tag">
+      <br />
+      <div id="picture">
+        <img
+          src="images/holmz1.jpg"
+          style="width: 100%"
+          alt="사진 들어가는 공간 "
+        />
+      </div>
+      <br />
+      <div id="tags">
+        <span id="t" style="background-color: #e2e2e2">afsd</span>
+        <span id="t" style="background-color: #e2e2e2">afsd</span>
+        <span id="t" style="background-color: #e2e2e2">afsd</span>
+        <span id="t" style="background-color: #e2e2e2">afsd</span>
+        <span id="t" style="background-color: #e2e2e2">afsd</span>
+      </div>
+      <br />
 
-        </div>
-        <span></span>
+      <div id="description">
+        <hr />
+        <h3>Description</h3>
+        Homlz에는 캐럴 1~21의 다양한 스터디 공간이 마련되어 있습니다.
+      </div>
+      <div id="time">
+        <h3>Time</h3>
+        - 월~금 : 09:00 ~ 22:00
+        <br />
+        - 토 : 09:00 ~ 15:00
+      </div>
+      <div id="where">
+        <h3>Where</h3>
+        한양대역 2번출구 앞 한양플라자 2층
+      </div>
+      <div id="significant"><h3>significant</h3></div>
     </div>
-
+    <div id="tag"></div>
+    <span></span>
 
     <header></header>
     <aside></aside>
     <article></article>
     <footer></footer>
-    
-</body>
+  </body>
 </html>
