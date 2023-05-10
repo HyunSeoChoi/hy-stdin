@@ -107,14 +107,7 @@
       }
     </style>
 
-    <script>
-      window.onload = function () {
-        temp = location.href.split("?");
-        data = temp[1].split(",");
-        var band = document.getElementById("band");
-        band.innerHTML = data;
-      };
-    </script>
+    
   </head>
 
   <body>
@@ -237,5 +230,14 @@
         </a>
       </div>
     </div>
+    <script>
+      // controller
+      window.onload = function () {
+        temp = location.href.split("?");
+        data = temp[1].split(",");
+        var band = document.getElementById("band");
+        band.innerHTML = data;
+      };
+    </script>
   </body>
 </html>
