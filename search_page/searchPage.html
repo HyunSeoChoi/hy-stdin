@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="../styles/basic.css" />
     <link rel="stylesheet" href="styles/style.css" />
     <script src="scripts/searchProcess.js"></script>
+    <script src="scripts/service/PlaceSearchService.js"></script>
+    <script src="scripts/repository/PlaceMemoryRepository.js"></script>
   </head>
   <body>
     <header>
@@ -121,14 +123,5 @@
         </a>
       </div>
     </div>
-    <script>
-      // controller
-      window.onload = function () {
-        temp = location.href.split("?");
-        data = temp[1].split(",");
-        var band = document.getElementById("band");
-        band.innerHTML = data;
-      };
-    </script>
   </body>
 </html>
