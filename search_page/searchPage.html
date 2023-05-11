@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="styles/style.css" />
     <script src="scripts/searchProcess.js"></script>
   </head>
-
   <body>
     <header>
       <h1>검색된 태그</h1>
@@ -122,5 +121,14 @@
         </a>
       </div>
     </div>
+    <script>
+      // controller
+      window.onload = function () {
+        temp = location.href.split("?");
+        data = temp[1].split(",");
+        var band = document.getElementById("band");
+        band.innerHTML = data;
+      };
+    </script>
   </body>
 </html>
