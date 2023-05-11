@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles/search_icon.css" type="text/css" />
     <link rel="stylesheet" href="styles/overflow.css" />
     <link rel="stylesheet" href="styles/style.css" />
-    <script src="scripts/buttonBackgroundColor.js"></script>
+    <script src="scripts/buttonFunction.js"></script>
     <!-- mid:670 small:560-->
     <link
       rel="stylesheet"
@@ -45,7 +45,8 @@
         class="search_text"
         id="search_text"
         type="text"
-        placeholder=" 찾고 싶은 공간을 입력해주세요."
+        onkeyup="if(window.event.keyCode==13){onSearchButtonClicked()}"
+        placeholder="찾고 싶은 공간의 특징을 , 로 구분하여 입력해주세요."
       />
     </div>
 
