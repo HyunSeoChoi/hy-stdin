@@ -39,7 +39,7 @@
         margin: auto;
         position: relative;
         width: 75%;
-        border-radius: 15px;
+        border-radius: 8px;
         background-color: #324650;
         border-top: 15px solid #324650;
         border-bottom: 15px solid #324650;
@@ -121,8 +121,16 @@
     }
     .footer {
         margin-top: 90px;
-        height: 200px;
-        border-top: 4px solid #324650;
+        height: 80px;
+        /* border-top: 4px solid #324650; */
+        background-color: #ebebeb;
+    }
+    .footer h3 {
+        display: flex;
+        justify-content: center;
+    }
+    #f1 {
+        padding-top: 20px;
     }
     .recommends {
         top: 100px;
@@ -224,18 +232,18 @@
             <span id="t">#afsd</span>
         </div>
 
-        <div class="image">
-            <img id="img" src="holmz1.jpg" ><br/>
-        </div>
-
         <!-- 얘네 좌우 사이즈에 맞게 키우는 방법? inner width에 맞게 -->
         <div class="nav_wrapper">
             <ul id="nav_area">
-                <li><a href="#">공간소개</a></li>
-                <li><a href="#">시설안내</a></li>
-                <li><a href="#">유의사항</a></li>
-                <li><a href="#">Q&A/후기</a></li>
+                <li><a href="#img">공간소개</a></li>
+                <li><a href="#d1">시설안내</a></li>
+                <li><a href="#d2">유의사항</a></li>
+                <li><a href="#d3">Q&A/후기</a></li>
             </ul>
+        </div>
+
+        <div class="image">
+            <img id="img" src="holmz1.jpg" ><br/>
         </div>
 
         <div class="description">
@@ -289,7 +297,8 @@
     </div>
 
     <div class="footer">
-            
+        <h3 id="f1">HY-std::in</h3>
+        <h3>Copyright (c) 2023 Hanyang University. ALL RIGHTS RESERVED.</h3>
     </div>
 
     
