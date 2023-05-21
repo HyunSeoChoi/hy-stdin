@@ -53,7 +53,7 @@ class PlaceMemoryRepository {
       information: "1. 주변에 편의점\n2. 1층에 복사실",
       notice: "많은 인원을 수용할 수 있는 강연장입니다.",
       review: "★★★★☆",
-      recommends: ["1공학관 205호", "1공학관 301호", "B104"],
+      recommends: ["1공학관 205호", "백남학술정보관 열람실 3F", "B104"],
     },
     {
       title: "1공학관 205호",
@@ -65,7 +65,7 @@ class PlaceMemoryRepository {
       information: "60명을 수용할 수 있으며 책상마다 모니터가 있습니다.",
       notice: "책상이 특이합니다.",
       review: "★★★★☆",
-      recommends: ["1공학관 301호", "B103", "1공학관 105호"],
+      recommends: ["백남학술정보관 열람실 3F", "B103", "1공학관 105호"],
     },
     {
       title: "IT/BT 509호",
@@ -188,7 +188,11 @@ class PlaceMemoryRepository {
       notice:
         "1. 한 번 나가면 다시 들어갈 수 없으며 재입장 시 다시 결제가 필요합니다.\n",
       review: "★★☆☆☆",
-      recommends: ["홈즈(HOLMZ)-캐럴", "백남학술정보관", "랭 스터디카페"],
+      recommends: [
+        "홈즈(HOLMZ)-캐럴",
+        "백남학술정보관 - CREATIVE ZONE",
+        "랭 스터디카페",
+      ],
     },
     {
       title: "랭 스터디카페",
@@ -334,7 +338,7 @@ class PlaceMemoryRepository {
       information: "주말은 영업 안함.",
       notice: "충전기 있음.",
       review: "★★★☆☆",
-      recommends: ["노영백 라운지", "IT/BT 인터넷카페", "왕십리 짙은"],
+      recommends: ["노영백 라운지", "IT/BT 인터넷카페(라운지)", "왕십리 짙은"],
     },
     {
       title: "왕십리 짙은",
@@ -360,7 +364,11 @@ class PlaceMemoryRepository {
         "연락처: 050-71441-9096\n서비스 옵션: 매장 내 식사 · 테이크아웃",
       notice: "충전기 없음.",
       review: "★★★★★",
-      recommends: ["한양대 스타벅스", "IT/BT 인터넷카페", "왕십리 짙은"],
+      recommends: [
+        "한양대 스타벅스",
+        "IT/BT 인터넷카페(라운지)",
+        "왕십리 짙은",
+      ],
     },
     {
       title: "노영백 라운지",
