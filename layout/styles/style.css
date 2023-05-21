@@ -96,7 +96,7 @@ body {
   text-decoration: none;
   color: #bdc2c6;
 }
-.image {
+#image {
   padding: 20px 0px;
   display: flex;
   justify-content: center;
@@ -106,7 +106,7 @@ body {
   height: 600px;
 }
 #img1 {
-  margin-top: 20px;
+  margin-top: 7px;
   width: 75%;
 }
 .footer {
@@ -121,7 +121,7 @@ body {
 .footer p {
   color: rgba(0, 0, 0, 0.643);
 }
-.recommends {
+#recommends {
   top: 100px;
   width: 60%;
   margin: auto;
