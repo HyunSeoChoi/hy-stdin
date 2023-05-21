@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/overflow.css" />
     <link rel="stylesheet" href="styles/style.css" />
     <script src="scripts/buttonFunction.js"></script>
+    <script src="scripts/dialogFunction.js"></script>
     <!-- mid:670 small:560-->
     <link
       rel="stylesheet"
@@ -49,6 +50,16 @@
         placeholder="찾고 싶은 공간의 특징을 , 로 구분하여 입력해주세요."
       />
     </div>
+    <button id="tag-list-button" onclick="onOpen()">help?</button>
+    <dialog id="favDialog">
+      <form method="dialog">
+        <h3>추천 태그</h3>
+        <p>팀플, 맛있는,  인쇄 가능한, 타이핑, 노트북, 감성있는, 소파, 노래나오는, 24시간, 독서실, 예약제, 라운지,  인기많은, 북적한, 늦게가면 자리없어, 왕십리, 사근동, 조용한, 대화가능한, 개방적인, 자유로운, 프라이빗한, 편안한, 엄숙한, 산책하기좋은, 편의점있는,한양대</p>
+        <menu>
+          <button value="cancel">취소</button>
+        </menu>
+      </form>
+    </dialog>
 
     <div>
       <a target="_blank" href="">

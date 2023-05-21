@@ -24,7 +24,7 @@ function expandButton() {
     width: 70vw;
     visibility: visible;
     border-radius: 30px;
-    background-color: #e2e2e2;
+    background-color: white;
     border-style: none;
     transition: all 500ms cubic-bezier(0, 0.11, 0.35, 2)
     `;
@@ -36,7 +36,7 @@ function expandButton() {
     width: 410px;
     visibility: visible;
     border-radius: 30px;
-    background-color: #e2e2e2;
+    background-color: white;
     border-style: none;
     transition: all 500ms cubic-bezier(0, 0.11, 0.35, 2)
     `;
@@ -48,7 +48,7 @@ function expandButton() {
     width: 520px;
     border-radius: 30px;
     visibility: visible;
-    background-color: #e2e2e2;
+    background-color: white;
     border-style: none;
     transition: all 500ms cubic-bezier(0, 0.11, 0.35, 2)
     `;

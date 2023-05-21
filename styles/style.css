@@ -51,7 +51,21 @@ body {
   border-style: none;
   /* absoulte 로 안밀려나게 하고서 오른쪽으로 붙인다. */
   /* background-color: rgb(108, 171, 232); */
-  background-color: lightgray;
+  background-color: white;
+}
+
+#tag-list-button{
+  color: #afafaf;
+  
+  border: none;
+  background-color: transparent;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 
 /* 버튼이 눌리면 입력창 확대 */
