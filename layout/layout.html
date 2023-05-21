@@ -8,21 +8,16 @@
   <link rel="stylesheet" href="styles/style.css" />
   <script src="scripts/onLoad.js"></script>
   <script src="../search_page/scripts/repository/PlaceMemoryRepository.js"></script>
+  <script src="scripts/service/htmlLoadService.js"></script>
 
   <body>
     <div class="header">HY-std::in</div>
 
     <div class="main">
-      <h1>노영백 라운지</h1>
-      <p>📍 한양대학교 제1공학관 1층</p>
+      <h1 id="title"></h1>
+      <p id="location"></p>
 
-      <div id="tags">
-        <span id="t">#afsd</span>
-        <span id="t">#afsd</span>
-        <span id="t">#afsd</span>
-        <span id="t">#afsd</span>
-        <span id="t">#afsd</span>
-      </div>
+      <div id="tags"></div>
 
       <!-- 얘네 좌우 사이즈에 맞게 키우는 방법? inner width에 맞게 -->
       <div class="nav_wrapper">
@@ -34,83 +29,80 @@
         </ul>
       </div>
 
-      <div class="image"><img id="img" src="../images/holmz1.jpg" /><br /></div>
+      <div id="image"><img id="img" src="../images/holmz1.jpg" /><br /></div>
 
-      <div class="description">
+      <div id="introduce">
         <div id="d1">
           <div id="first">
             <h3>공간소개</h3>
-            <p id="line">
-              노영백 라운지는 아늑하고 쾌적한 환경에서 편안하게 작업이나 공부에
-              집중할 수 있는 공간입니다.<br /><br />
-              1. 취침 가능 (매트리스 / 소파 마련) <br />2. 예약 없이 자유롭게
-              이용 가능 <br />3. 간단한 수다 가능
-            </p>
+            <p id="line"></p>
           </div>
         </div>
+      </div>
+
+      <div id="information">
         <div id="d2">
           <div id="first">
             <h3>시설안내</h3>
-            <p id="line">
-              노영백 라운지는 아늑하고 쾌적한 환경에서 편안하게 작업이나 공부에
-              집중할 수 있는 공간입니다.<br /><br />
-              1. 취침 가능 (쇼파 마련)
-            </p>
+            <p id="line"></p>
           </div>
         </div>
+      </div>
+
+      <div id="notice">
         <div id="d3">
           <div id="first">
             <h3>유의사항</h3>
-            <p id="line">
-              노영백 라운지는 아늑하고 쾌적한 환경에서 편안하게 작업이나 공부에
-              집중할 수 있는 공간입니다.
-            </p>
+            <p id="line"></p>
           </div>
         </div>
+      </div>
+
+      <div id="review">
         <div id="d4">
           <div id="first">
             <h3>Q&A/후기</h3>
-            <p id="line">
-              노영백 라운지는 아늑하고 쾌적한 환경에서 편안하게 작업이나 공부에
-              집중할 수 있는 공간입니다.
-            </p>
+            <p id="line"></p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="recommends">
-      <div class="rec1">
+    <div id="recommends">
+      <div id="rec1">
         <div class="postIts">
-          <h1>이순규 라운지</h1>
-          <p id="p1">📍 한양대학교 중앙도서관 1층 (입구에서 왼쪽)</p>
+          <h1></h1>
+          <div id="recommendsLocation">
+            <p id="p1"></p>
+          </div>
           <hr id="line" />
-          <br />
           <img id="img1" src="../images/holmz1.jpg" />
-          <p id="p1">#tags</p>
-          <a href="#" class="button btnFade btnLightBlue">자세히 보기</a>
+          <div id="recommendsTags"><p id="p1"></p></div>
+          <a href="" class="button btnFade btnLightBlue">자세히 보기</a>
         </div>
       </div>
-      <div class="rec2">
+      <div id="rec2">
         <div class="postIts">
-          <h1>이종훈 라운지</h1>
-          <p id="p1">📍 한양대학교 중앙도서관 1층 (입구에서 오른쪽)</p>
+          <h1></h1>
+          <div id="recommendsLocation">
+            <p id="p1"></p>
+          </div>
           <hr id="line" />
-          <br />
           <img id="img1" src="../images/holmz1.jpg" />
-          <p id="p1">#tags</p>
-          <a href="#" class="button btnFade btnLightBlue">자세히 보기</a>
+          <div id="recommendsTags"><p id="p1"></p></div>
+          <a href="" class="button btnFade btnLightBlue">자세히 보기</a>
         </div>
       </div>
-      <div class="rec3">
+      <div id="rec3">
         <div class="postIts">
-          <h1>이종훈 라운지</h1>
-          <p id="p1">📍 한양대학교 중앙도서관 1층 (입구에서 오른쪽)</p>
+          <h1></h1>
+          <div id="recommendsLocation">
+            <p id="p1"></p>
+          </div>
           <hr id="line" />
-          <br />
           <img id="img1" src="../images/holmz1.jpg" />
-          <p id="p1">#tags</p>
-          <a href="#" class="button btnFade btnLightBlue">자세히 보기</a>
+          <div id="recommendsTags"><p id="p1"></p></div>
+          <a href="" class="button btnFade btnLightBlue">자세히 보기</a>
         </div>
       </div>
     </div>
