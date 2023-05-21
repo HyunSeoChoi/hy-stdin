@@ -1,5 +1,5 @@
 body {
-  background-image: url(../images/hanyang.png);
+  background-image: url(../images/hyu_night_6.jpg);
   background-color: #ffffff;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -13,7 +13,8 @@ body {
 }
 
 #title > h1 {
-  color: rgb(108, 171, 232);
+  /* color: rgb(108, 171, 232); */
+  color: white;
 }
 
 #search_space {
@@ -49,7 +50,8 @@ body {
   right: 0px;
   border-style: none;
   /* absoulte 로 안밀려나게 하고서 오른쪽으로 붙인다. */
-  background-color: rgb(108, 171, 232);
+  /* background-color: rgb(108, 171, 232); */
+  background-color: lightgray;
 }
 
 /* 버튼이 눌리면 입력창 확대 */
