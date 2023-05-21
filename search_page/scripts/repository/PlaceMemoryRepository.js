@@ -270,7 +270,7 @@ class PlaceMemoryRepository {
         title: "왕십리 할리스 커피",
         location: "서울특별시 성동구 행당동 4-5",
         tag: ["고급스러운", "2층", "대화가능한", "감성", "공부하기 좋은"],
-        image: "starbucksHanyang.jpeg",
+        image: "hollis.jpeg",
         introduce:
           "시그니처 로스팅, 가벼운 식사, 무료 Wi-Fi로 잘 알려진 미국 시애틀 기반의 커피하우스 체인점입니다.\n이용시간 : 09:00-23:00\n\n1. 1명, 1~2명, 1~4명의 인원 수용\n2. 사람 많음\n3. 1층까지 있음\n4. 매장 내 식사, 테이크아웃 가능",
         information:
