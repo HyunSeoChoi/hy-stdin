@@ -103,14 +103,30 @@ class PlaceSearchService {
       // console.log(ordered[i]['title']);
       const titleElements = document.getElementsByClassName('title');
       const introduceElements = document.getElementsByClassName('introduce');
+      const reviewElements = document.getElementsByClassName('review');
+      const imageElements = document.getElementsByClassName('thumb');
+      const cardElements = document.getElementsByClassName('card');
+
+      if(cardElements[i]){
+        cardElements[i].href = "../layout/layout.html?"+ordered[i]['title'];
+      }
+
 
       if (titleElements[i]) {
         titleElements[i].innerHTML = ordered[i]['title'];
-     }
+      }
 
       if (introduceElements[i]) {
-       introduceElements[i].innerHTML = ordered[i]['introduce'];
-     }
+        introduceElements[i].innerHTML = ordered[i]['introduce'];
+      }
+
+      if (introduceElements[i]) {
+        reviewElements[i].innerHTML = ordered[i]['review'];
+      }
+
+      if (imageElements[i]) {
+        imageElements[i].style.backgroundImage = `url(../layout/images/${ordered[i]['image']})`;
+      }
     }
   }
 }
