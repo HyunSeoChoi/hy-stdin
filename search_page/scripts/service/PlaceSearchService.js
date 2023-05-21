@@ -22,6 +22,8 @@ class PlaceSearchService {
   findAllOrderByTag(target_tags, limit) {
     // 다 가져온다 {...}, 애초에 깊은 복사해서 받는다.
     const repo = new PlaceMemoryRepository();
+    const engine = new NgramSearchEngine();
+
     let target = Array.from(repo.findAll());
     const origin = Array.from(repo.findAll());
     // 하나씩 돌면서 태그 합산 해서 count 필드 추가, idx도 필드로 추가
@@ -33,9 +35,14 @@ class PlaceSearchService {
       // k is iterator of target_tags
       for (let j = 0; j < input_tags.length; j++) {
         for (let k = 0; k < target_tags.length; k++) {
-          if (input_tags[j] === target_tags[k]) {
+
+
+          /* if (input_tags[j] === target_tags[k]) {
             count++;
-          }
+          } */
+
+          count = count + engine.similarity(input_tags[j], target_tags[k]);
+
         }
       }
 
