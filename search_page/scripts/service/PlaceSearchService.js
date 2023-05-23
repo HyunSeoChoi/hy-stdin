@@ -12,9 +12,31 @@ class PlaceSearchService {
     // given : 조용한, 떠들썩한;
     // const temp = location.href.split("?")[1];
     let after = decodeURI(url);
-    const temp = after.split("?")[1];
-    const data = temp.split(",");
-    return data;
+    let query = after.split("?")[1];
+
+    console.log("before : " + query);
+
+    // 반점이랑 한국어만 가져온다.
+    let noSpecial = query.replace(/[^\wㄱ-ㅎㅏ-ㅣ가-힣,]|_/g, '');
+
+    // 연속된 반점 ,,,, 을 , 으로 대체 => a,,,b,,,,c 는 a,b,c
+    let oneDot = noSpecial.replace(/,+/g, ',');
+    
+    // 마지막과 처음 반점 없애기
+    let noEndCommas = oneDot.replace(/^,|,$/g, '');
+
+    // 모든 공백 없애기
+    let noBlank = noEndCommas.replace(/\s/g, '');
+
+    // 반점 기준으로 분할
+    let tokenized = noBlank.split(",");
+
+    // 배열에서 중복된 요소를 하나 빼고 전부 제거
+    let noDuplicatedTokens = [...new Set(tokenized)];
+
+    console.log("after : " + noDuplicatedTokens);
+
+    return noDuplicatedTokens;
   }
 
   // 검색 엔진 바꾸려면 이거 바꾸면 됨, 어차피 output은 정렬된 id
@@ -26,6 +48,19 @@ class PlaceSearchService {
 
     let target = Array.from(repo.findAll());
     const origin = Array.from(repo.findAll());
+
+    // 태그 없으면 그냥 리턴. 엔그램 이상해짐.
+    if (!target_tags || target_tags.length === 0) {
+      return origin;
+    }
+
+    for (let i = 0; i < target_tags.length; i++) {
+      if (target_tags[i].length === 0) {
+        return origin;
+      }
+    }
+
+
     // 하나씩 돌면서 태그 합산 해서 count 필드 추가, idx도 필드로 추가
     for (let i = 0; i < repo.size(); i++) {
       //  태그 몇개 겹치는지 계산
