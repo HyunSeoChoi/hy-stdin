@@ -53,7 +53,7 @@ class PlaceMemoryRepository {
       information: "1. 주변에 편의점\n2. 1층에 복사실",
       notice: "많은 인원을 수용할 수 있는 강연장입니다.",
       review: "★★★★☆",
-      recommends: ["1공학관 205호", "백남학술정보관 열람실 3F", "B104"],
+      recommends: ["1공학관 205호", "중도 열람실 3F", "B104"],
     },
     {
       title: "1공학관 205호",
@@ -65,7 +65,7 @@ class PlaceMemoryRepository {
       information: "60명을 수용할 수 있으며 책상마다 모니터가 있습니다.",
       notice: "책상이 특이합니다.",
       review: "★★★★☆",
-      recommends: ["백남학술정보관 열람실 3F", "B103", "1공학관 105호"],
+      recommends: ["중도 열람실 3F", "B103", "1공학관 105호"],
     },
     {
       title: "IT/BT 509호",
@@ -80,7 +80,7 @@ class PlaceMemoryRepository {
       recommends: ["홈즈 오픈라운지", "B103", "1공학관 105호"],
     },
     {
-      title: "홈즈(HOLMZ)-캐럴",
+      title: "홈즈-캐럴",
       location: "한양플라자 2층, 4층",
       tag: ["예약제", "한양대", "대화가능한", "팀플", "편안한"],
       image: "carol.jpeg",
@@ -92,13 +92,13 @@ class PlaceMemoryRepository {
         "1. 일회용 용기의 외부 음료 반입과 음식물 반입이 금지됩니다.\n2. 이용하고자 하는 날짜의 3일 전부터 예약이 가능합니다.\n3. ",
       review: "★★★☆☆",
       recommends: [
-        "백남학술정보관 - CREATIVE ZONE",
+        "CREATIVE ZONE",
         "이종훈 라운지",
         "IT/BT 509호",
       ],
     },
     {
-      title: "백남학술정보관 - CREATIVE ZONE",
+      title: "CREATIVE ZONE",
       location: "백남학술정보관 1층, 3층",
       tag: ["스터디룸", "자유로운", "공간대여", "중도", "팀플"],
       image: "creative_zone.jpeg",
@@ -109,7 +109,7 @@ class PlaceMemoryRepository {
       notice:
         "1. 일회용 용기의 외부 음료 반입과 음식물 반입이 금지됩니다.\n2. 이용하고자 하는 날짜의 3일 전부터 예약이 가능합니다.",
       review: "★☆☆☆☆",
-      recommends: ["홈즈(HOLMZ)-캐럴", "이순규 라운지", "1공학관 205호"],
+      recommends: ["홈즈-캐럴", "이순규 라운지", "1공학관 205호"],
     },
     {
       title: "IT/BT 4층",
@@ -143,9 +143,7 @@ class PlaceMemoryRepository {
         "조용한",
         "엄숙한",
         "독서실",
-        "무료",
         "북적한",
-        "늦게가면 자리없어",
         "한양대",
       ],
       image: "old.jpeg",
@@ -157,13 +155,13 @@ class PlaceMemoryRepository {
         "1. 일회용 용기의 외부 음료 반입과 음식물 반입이 금지.\n2. 예약제로 운영되며, 출입 전 자리를 선점해야 함.",
       review: "★★★★☆",
       recommends: [
-        "백남학술정보관 - CREATIVE ZONE",
-        "백남학술정보관 열람실 3F",
+        "CREATIVE ZONE",
+        "중도 열람실 3F",
         "IT/BT 4층",
       ],
     },
     {
-      title: "백남학술정보관 열람실 3F",
+      title: "중도 열람실 3F",
       location: "백남학술정보관 3층",
       tag: ["엄숙한", "독서실", "프라이빗한", "조용한", "24시간"],
       image: "Paiknam-3f.jpeg",
@@ -178,7 +176,7 @@ class PlaceMemoryRepository {
     },
     {
       title: "힙덱",
-      location: "서울 성동구 마조로 33 2층, 3층 (왕십리역 6번 출구에서204m)",
+      location: "서울 성동구 마조로 33 2층, 3층",
       tag: ["노래나오는", "자유로운", "왕십리", "공유오피스", "팀플"],
       image: "HipDeck.jpeg",
       introduce:
@@ -189,14 +187,14 @@ class PlaceMemoryRepository {
         "1. 한 번 나가면 다시 들어갈 수 없으며 재입장 시 다시 결제가 필요합니다.\n",
       review: "★★☆☆☆",
       recommends: [
-        "홈즈(HOLMZ)-캐럴",
-        "백남학술정보관 - CREATIVE ZONE",
+        "홈즈-캐럴",
+        "CREATIVE ZONE",
         "랭 스터디카페",
       ],
     },
     {
       title: "랭 스터디카페",
-      location: "서울 성동구 왕십리로 235 제1호 3층(한양대역 1번 출구에서227m)",
+      location: "서울 성동구 왕십리로 235 제1호 3층",
       tag: ["독서실", "조용한", "감성있는", "24시간", "편의점있는"],
       image: "Lang.jpeg",
       introduce:
@@ -206,13 +204,13 @@ class PlaceMemoryRepository {
       notice:
         "1. 일회용 용기의 외부 음료 반입과 음식물 반입이 금지됩니다.\n2. 야간권은 사전 구매가 필요합니다.",
       review: "★★★★★",
-      recommends: ["홈즈(HOLMZ)-캐럴", "힙덱", "링크 스터디카페"],
+      recommends: ["홈즈-캐럴", "힙덱", "링크 스터디카페"],
     },
     {
       title: "링크 스터디카페",
-      location: "서울 성동구 사근동길 47 1층(용답역 2번 출구에서 504m)",
+      location: "서울 성동구 사근동길 47 1층",
       tag: ["독서실", "조용한", "24시간", "사근동", "엄숙한"],
-      image: "creative_zone.jpeg",
+      image: "link.jpeg",
       introduce:
         "사근동에 위치한 스터디카페로, 한적한 거리에 주변에 편의 시설이 위치하고 있습니다. \n이용시간 : 24시간 \n\n1.2시간 : 3,500원 / 4시간 : 6,000원 / 6시간 : 8,000원 / 8시간 : 9,000원 / 10시간 : 10,000원 \n2. 산뜻한 분위기 \n3. 기본 음료 제공\n",
       information:
@@ -223,7 +221,7 @@ class PlaceMemoryRepository {
     },
     {
       title: "왕십리역 탐앤탐스",
-      location: "서울특별시 성동구 행당동 168-151 비트플렉스몰 2층 B-04호",
+      location: "서울 성동구 행당동 비트플렉스몰 2층 B-04호",
       tag: ["대화가능한", "시끌벅적한", "밝은", "충전기", "24시간"],
       image: "tomAndtomsWangsipri.jpeg",
       introduce:
@@ -350,7 +348,7 @@ class PlaceMemoryRepository {
         "주말은 영업 안함.\n서비스 옵션: 매장 내 식사 · 테이크아웃\n화장실 있음",
       notice: "충전기 없음",
       review: "★★★☆☆",
-      recommends: ["노영백 라운지", "어질 인", "정몽구 미자공 라운지"],
+      recommends: ["노영백 라운지", "어질 인", "정몽구 라운지"],
     },
     {
       title: "어질 인",
@@ -384,7 +382,7 @@ class PlaceMemoryRepository {
       recommends: [
         "이순규 라운지",
         "홈즈 오픈라운지",
-        "정몽구 미자공 라운지",
+        "정몽구 라운지",
       ],
     },
     {
@@ -399,7 +397,7 @@ class PlaceMemoryRepository {
       notice:
         "1. 음료 반입 가능\n2. 사전 예약 없이 이용 가능\n3. 노트북 사용 및 타이핑 가능\n4. 다양한 좌석 형태\n",
       review: "★★★★☆",
-      recommends: ["이종훈 라운지", "노영백 라운지", "홈즈(HOLMZ)-캐럴"],
+      recommends: ["이종훈 라운지", "노영백 라운지", "홈즈-캐럴"],
     },
     {
       title: "이종훈 라운지",
@@ -415,17 +413,17 @@ class PlaceMemoryRepository {
       review: "★★★★☆",
       recommends: [
         "이순규 라운지",
-        "백남학술정보관 - CREATIVE ZONE",
-        "홈즈(HOLMZ)-캐럴",
+        "CREATIVE ZONE",
+        "홈즈-캐럴",
       ],
     },
     {
-      title: "정몽구 미자공 라운지",
+      title: "정몽구 라운지",
       location: "한양대학교 정몽구 미래자동차연구센터 2층",
       tag: ["라운지", "자유로운", "24시간", "대화가능한", "노트북"],
       image: "jungmonggooloung.jpeg",
       introduce:
-        "정몽구 미자공 라운지는 넓고 개방적인 환경에서 편안하게 업무를 볼 수 있는 라운지 공간입니다.\n1. 이용시간: 24시간\n2. 사전 예약 없이 이용 가능\n3. 노트북 사용 및 타이핑 가능\n4. 엘리베이터 이용 가능",
+        "정몽구 라운지는 넓고 개방적인 환경에서 편안하게 업무를 볼 수 있는 라운지 공간입니다.\n1. 이용시간: 24시간\n2. 사전 예약 없이 이용 가능\n3. 노트북 사용 및 타이핑 가능\n4. 엘리베이터 이용 가능",
       information:
         "1. 건물 인근 카페 '띠아모' 위치\n2. 건물 인근 노천극장 푸드코드 위치\n3. 인근 한양대역 2번 출구 위치\n",
       notice:
