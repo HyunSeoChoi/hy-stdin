@@ -205,7 +205,7 @@ body {
   color: #f6f6f6;
 }
 #first::-webkit-scrollbar{
-  display: hidden;
+  display: none;
 }
 #first h3 {
   width: max-content;
