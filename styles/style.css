@@ -6,6 +6,16 @@ body {
   background-size: cover;
 }
 
+#main_title a:link{
+  color:white;
+  text-decoration:none;
+}
+
+#main_title a:visited{
+  color:white;
+  text-decoration:none;
+}
+
 #title {
   position: relative;
   text-align: center;
