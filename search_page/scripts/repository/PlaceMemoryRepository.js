@@ -77,7 +77,7 @@ class PlaceMemoryRepository {
       information: "os 수업이 진행되며 노트북 사용에 자유롭습니다.",
       notice: "아무때나 들어가면 안됩니다.",
       review: "★★★★★",
-      recommends: ["홈즈(HOLMZ) 오픈라운지", "B103", "1공학관 105호"],
+      recommends: ["홈즈 오픈라운지", "B103", "1공학관 105호"],
     },
     {
       title: "홈즈(HOLMZ)-캐럴",
@@ -125,12 +125,12 @@ class PlaceMemoryRepository {
       recommends: ["IT/BT 509호", "힙덱", "1공학관 205호"],
     },
     {
-      title: "IT/BT 인터넷카페(라운지)",
+      title: "IT/BT 인터넷카페",
       location: "한양대학교 IT/BT 2층",
       tag: ["자유로운", "소파", "개방적인", "인기많은"],
       image: "itbt-2f.jpeg",
       introduce:
-        "IT/BT 인터넷카페(라운지)에는 자유롭게 공부하고 식사할 수 있는 공간입니다.\n이용시간 : 10:00-22:00 \n\n1. 사전 예약 필요하지 않음\n2. 자유로운 분위기\n3. 밥먹기 가능",
+        "IT/BT 인터넷카페에는 자유롭게 공부하고 식사할 수 있는 공간입니다.\n이용시간 : 10:00-22:00 \n\n1. 사전 예약 필요하지 않음\n2. 자유로운 분위기\n3. 밥먹기 가능",
       information: "1. 3층에 큐카페있음 \n2. 인쇄시설 : 1층에서 인쇄 가능",
       notice: "1. 배달 음식을 시켜먹을 수 있습니다.\n2. 잡담 환영",
       review: "★★★★★",
@@ -219,7 +219,7 @@ class PlaceMemoryRepository {
         "1. 인근에 편의점 다수 위치 \n2. oct.24, 카페 사근 등 카페 위치 \n3. 화장실 : 층 내부에 위치함",
       notice: "1. 일회용 용기의 외부 음료 반입과 음식물 반입이 금지됩니다.\n2.",
       review: "★★★★☆",
-      recommends: ["홈즈(HOLMZ) 오픈라운지", "힙덱", "랭 스터디카페"],
+      recommends: ["홈즈 오픈라운지", "힙덱", "랭 스터디카페"],
     },
     {
       title: "왕십리역 탐앤탐스",
@@ -301,13 +301,13 @@ class PlaceMemoryRepository {
       notice: "콘센트 있음",
       review: "★★★★☆",
       recommends: [
-        "홈즈(HOLMZ) 오픈라운지",
+        "홈즈 오픈라운지",
         "노영백 라운지",
         "카페띠아모 한양대점",
       ],
     },
     {
-      title: "홈즈(HOLMZ) 오픈라운지",
+      title: "홈즈 오픈라운지",
       location: "한양플라자 2층/4층",
       tag: [
         "대화가능한",
@@ -316,8 +316,7 @@ class PlaceMemoryRepository {
         "타이핑",
         "노트북",
         "소파",
-        "노래나오는",
-        "무료",
+        
       ],
       image: "4층_오픈라운지_04.jpg",
       introduce:
@@ -326,7 +325,7 @@ class PlaceMemoryRepository {
         "인쇄시설 : 한양플라자 1층에 복사실 위치\n 편의시설: 같은 건물 3층에서는 저렴한 학식을 판매하고 있으며, 1층에 다양한 음식점이 있고 편의점도 있습니다. 모든 층에 남녀 화장실이 위치해있고 분리수거를 할 수 있는 공간이 있습니다.",
       notice: "1. 외부 음료 반입과 음식물 반입이 금지.",
       review: "★★★★★",
-      recommends: ["노영백 라운지", "IT/BT 인터넷카페(라운지)", "팬도로시"],
+      recommends: ["노영백 라운지", "IT/BT 인터넷카페", "팬도로시"],
     },
     {
       title: "팬도로시",
@@ -338,7 +337,7 @@ class PlaceMemoryRepository {
       information: "주말은 영업 안함.",
       notice: "충전기 있음.",
       review: "★★★☆☆",
-      recommends: ["노영백 라운지", "IT/BT 인터넷카페(라운지)", "왕십리 짙은"],
+      recommends: ["노영백 라운지", "IT/BT 인터넷카페", "왕십리 짙은"],
     },
     {
       title: "왕십리 짙은",
@@ -366,7 +365,7 @@ class PlaceMemoryRepository {
       review: "★★★★★",
       recommends: [
         "한양대 스타벅스",
-        "IT/BT 인터넷카페(라운지)",
+        "IT/BT 인터넷카페",
         "왕십리 짙은",
       ],
     },
@@ -384,7 +383,7 @@ class PlaceMemoryRepository {
       review: "★★★★☆",
       recommends: [
         "이순규 라운지",
-        "홈즈(HOLMZ) 오픈라운지",
+        "홈즈 오픈라운지",
         "정몽구 미자공 라운지",
       ],
     },

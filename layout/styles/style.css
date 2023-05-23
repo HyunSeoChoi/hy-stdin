@@ -108,6 +108,7 @@ body {
 #img1 {
   margin-top: 7px;
   width: 75%;
+  aspect-ratio: 3 / 2;
 }
 .footer {
   height: 100px;
@@ -194,6 +195,9 @@ body {
   border-radius: 10px;
   border: 1px solid #f6f6f6;
   color: #f6f6f6;
+}
+#first::-webkit-scrollbar{
+  display: hidden;
 }
 #first h3 {
   width: max-content;
