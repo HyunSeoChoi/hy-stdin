@@ -23,6 +23,14 @@ body {
   margin-bottom: 800px;
   border-bottom: 4px solid #0c1f32;
 }
+.header a:link{
+  color:#0c1f32;
+  text-decoration:none;
+}
+.header a:visited{
+  color:#0c1f32;
+  text-decoration:none;
+}
 .main {
   top: 100px;
   /* display: block; */
