@@ -123,7 +123,7 @@ body {
 }
 #recommends {
   top: 100px;
-  width: 60%;
+  width: 100%;
   margin: auto;
   position: relative;
   display: flex;
@@ -188,6 +188,7 @@ body {
   color: #898c8e;
 }
 #first {
+  overflow: scroll;
   height: 250px;
   margin: 50px 100px;
   border-radius: 10px;
