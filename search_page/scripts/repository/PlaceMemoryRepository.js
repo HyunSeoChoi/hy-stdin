@@ -8,6 +8,18 @@
 class PlaceMemoryRepository {
   static placeData = [
     {
+      title: "포리프 동방",
+      location: "대운동장 지하 2층",
+      tag: ["편안한", "공부하기 좋은", "노트북", "한양대", "밝은"],
+      image: "forif.jpeg",
+      introduce:
+        "포리프 동방은 모니터와 키보드를 사용할 수 있으며 침대 또한 마련되어 있습니다.\n1. 수용인원 10명\n2. 팀플 가능\n3. 모니터 사용 가능",
+      information: "1. 콘센트 이용 가능 \n 2. 지하 2층",
+      notice: "편안하게 쉬면 됩니다.",
+      review: "★★★★☆",
+      recommends: ["B104", "1공학관 105호", "이종훈 라운지"],
+    },
+    {
       title: "B103",
       location: "인문대 1층",
       tag: ["조용한", "프라이빗한", "노트북", "한양대"],
@@ -53,7 +65,7 @@ class PlaceMemoryRepository {
       information: "1. 주변에 편의점\n2. 1층에 복사실",
       notice: "많은 인원을 수용할 수 있는 강연장입니다.",
       review: "★★★★☆",
-      recommends: ["1공학관 205호", "중도 열람실 3F", "B104"],
+      recommends: ["IT/BT 509호", "중도 열람실 3F", "B104"],
     },
     {
       title: "1공학관 205호",
@@ -91,11 +103,7 @@ class PlaceMemoryRepository {
       notice:
         "1. 일회용 용기의 외부 음료 반입과 음식물 반입이 금지됩니다.\n2. 이용하고자 하는 날짜의 3일 전부터 예약이 가능합니다.\n3. ",
       review: "★★★☆☆",
-      recommends: [
-        "CREATIVE ZONE",
-        "이종훈 라운지",
-        "IT/BT 509호",
-      ],
+      recommends: ["CREATIVE ZONE", "이종훈 라운지", "IT/BT 509호"],
     },
     {
       title: "CREATIVE ZONE",
@@ -139,13 +147,7 @@ class PlaceMemoryRepository {
     {
       title: "1공 공대도서관",
       location: "한양대학교 제1공학관 1층",
-      tag: [
-        "조용한",
-        "엄숙한",
-        "독서실",
-        "북적한",
-        "한양대",
-      ],
+      tag: ["조용한", "엄숙한", "독서실", "북적한", "한양대"],
       image: "old.jpeg",
       introduce:
         "제 1공학도서관에는 독서실 분위기의 스터디 공간이 마련되어 있습니다. \n이용시간 : 09:00-22:00 \n\n약 140석의 개인석이 있습니다. \n2. 사전 예약 필요\n3. 팀프로젝트 가능\n4. 모니터 사용 가능",
@@ -154,11 +156,7 @@ class PlaceMemoryRepository {
       notice:
         "1. 일회용 용기의 외부 음료 반입과 음식물 반입이 금지.\n2. 예약제로 운영되며, 출입 전 자리를 선점해야 함.",
       review: "★★★★☆",
-      recommends: [
-        "CREATIVE ZONE",
-        "중도 열람실 3F",
-        "IT/BT 4층",
-      ],
+      recommends: ["CREATIVE ZONE", "중도 열람실 3F", "IT/BT 4층"],
     },
     {
       title: "중도 열람실 3F",
@@ -186,11 +184,7 @@ class PlaceMemoryRepository {
       notice:
         "1. 한 번 나가면 다시 들어갈 수 없으며 재입장 시 다시 결제가 필요합니다.\n",
       review: "★★☆☆☆",
-      recommends: [
-        "홈즈-캐럴",
-        "CREATIVE ZONE",
-        "랭 스터디카페",
-      ],
+      recommends: ["홈즈-캐럴", "CREATIVE ZONE", "랭 스터디카페"],
     },
     {
       title: "랭 스터디카페",
@@ -277,7 +271,7 @@ class PlaceMemoryRepository {
     {
       title: "카페띠아모 한양대점",
       location: "제1공학관 앞",
-      tag: ["고급스러운", "노트북,", "감성", "노트북", "산책하기좋은"],
+      tag: ["고급스러운", "노트북", "감성", "노트북", "산책하기좋은"],
       image: "ddiamo.jpeg",
       introduce:
         "간단한 음료를 마시기 좋은 곳입니다.\n이용시간 : 09:00-19:00\n\n1. 음료 맛있음\n2. 사람 많음\n3. 1층까지 있음",
@@ -298,24 +292,12 @@ class PlaceMemoryRepository {
         "주소 : 서울특별시 성동구 왕십리로 222\n연락처 : +82. 2. 2294. 0222",
       notice: "콘센트 있음",
       review: "★★★★☆",
-      recommends: [
-        "홈즈 오픈라운지",
-        "노영백 라운지",
-        "카페띠아모 한양대점",
-      ],
+      recommends: ["홈즈 오픈라운지", "노영백 라운지", "카페띠아모 한양대점"],
     },
     {
       title: "홈즈 오픈라운지",
       location: "한양플라자 2층/4층",
-      tag: [
-        "대화가능한",
-        "개방적인",
-        "자유로운",
-        "타이핑",
-        "노트북",
-        "소파",
-        
-      ],
+      tag: ["대화가능한", "개방적인", "자유로운", "타이핑", "노트북", "소파"],
       image: "4층_오픈라운지_04.jpg",
       introduce:
         "한양플라자 2층과 4층에는 간단한 대화가 가능한 독서실 분위기의 라운지가 마련되어 있습니다. \n이용시간 : 평일에는 09:00-22:00 토요일에는 09:00-15:00 일요일 및 공휴일은 휴관합니다. \n2층은 지정좌석제로 운영되며 총 200석규모의 대형 학습 공간입니다. \n2. 4층은 자유형 오픈라운지로, 별도의 예약과 지정 없이 사용 가능합니다.",
@@ -361,11 +343,7 @@ class PlaceMemoryRepository {
         "연락처: 050-71441-9096\n서비스 옵션: 매장 내 식사 · 테이크아웃",
       notice: "충전기 없음.",
       review: "★★★★★",
-      recommends: [
-        "한양대 스타벅스",
-        "IT/BT 인터넷카페",
-        "왕십리 짙은",
-      ],
+      recommends: ["한양대 스타벅스", "IT/BT 인터넷카페", "왕십리 짙은"],
     },
     {
       title: "노영백 라운지",
@@ -379,11 +357,7 @@ class PlaceMemoryRepository {
       notice:
         "1. 음료 반입 가능\n2. 사전 예약 없이 이용 가능\n3. 24시간 이용 가능\n4. 콘센트 사용 가능\n5. 노트북 사용 및 타이핑 가능\n",
       review: "★★★★☆",
-      recommends: [
-        "이순규 라운지",
-        "홈즈 오픈라운지",
-        "정몽구 라운지",
-      ],
+      recommends: ["이순규 라운지", "홈즈 오픈라운지", "정몽구 라운지"],
     },
     {
       title: "이순규 라운지",
@@ -411,11 +385,7 @@ class PlaceMemoryRepository {
       notice:
         "1. 음료 반입 가능\n2. 사전 예약 없이 이용 가능\n3. 노트북 사용 및 타이핑 가능\n4. 다양한 좌석 형태\n",
       review: "★★★★☆",
-      recommends: [
-        "이순규 라운지",
-        "CREATIVE ZONE",
-        "홈즈-캐럴",
-      ],
+      recommends: ["이순규 라운지", "CREATIVE ZONE", "홈즈-캐럴"],
     },
     {
       title: "정몽구 라운지",
