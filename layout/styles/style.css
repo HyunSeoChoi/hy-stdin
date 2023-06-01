@@ -206,6 +206,12 @@ body {
   border: 1px solid #f6f6f6;
   color: #f6f6f6;
 }
+#first h3 {
+  font-size: 25px;
+}
+#first p {
+  font-size: 16px;
+}
 #first::-webkit-scrollbar{
   width:3px;
   height:3.5px;
